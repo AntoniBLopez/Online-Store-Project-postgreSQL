@@ -1,0 +1,7 @@
+// .sequelizerc     rc = run commands
+module.exports = {
+  'config': './db/config.js',
+  'models-path': './db/models',
+  'migrations-path': './db/migrations',
+  'seeders-path': './db/seeders',
+}
